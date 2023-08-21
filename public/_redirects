@@ -1,1 +1,4 @@
-/api/*http://todobe.us-east-1.elasticbeanstalk.com/api/:splat 200
+[[redirects]]
+  from = "/api/*"
+  to = "http://todobe.us-east-1.elasticbeanstalk.com/api/:splat"
+  status = 200
